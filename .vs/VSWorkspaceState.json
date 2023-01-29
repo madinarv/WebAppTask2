@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplicationtask2",
+    "\\WebApplicationtask2\\bin",
+    "\\WebApplicationtask2\\bin\\Debug",
+    "\\WebApplicationtask2\\bin\\Release",
+    "\\WebApplicationtask2\\DataAccessLayer",
+    "\\WebApplicationtask2\\Migrations",
+    "\\WebApplicationtask2\\obj",
+    "\\WebApplicationtask2\\Properties"
+  ],
+  "SelectedNode": "\\WebApplicationtask2\\Migrations\\AppDbContextModelSnapshot.cs",
+  "PreviewInSolutionExplorer": false
+}

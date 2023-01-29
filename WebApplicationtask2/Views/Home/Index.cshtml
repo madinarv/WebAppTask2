@@ -1,0 +1,20 @@
+﻿@using WebApplicationtask2.Models
+@model List<Model>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>Name: @item.Name <br>  Marka: @item?.Marka?.Name - Cars:
+            <ul>
+                @foreach (var car in item?.Cars)
+                {
+                    <li>Name: @car?.Name - Year: @car?.Year </li>
+                }
+            </ul>
+        </li>
+    }
+</ul>
